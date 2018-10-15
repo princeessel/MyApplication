@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Address"
+        android:id="@+id/user_address"
+        android:layout_alignParentStart="true"
+        android:padding="@dimen/user_details_text_margin" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Phone"
+        android:id="@+id/user_phone"
+        android:layout_below="@+id/user_address"
+        android:layout_alignParentStart="true"
+        android:padding="@dimen/user_details_text_margin" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Mobile"
+        android:id="@+id/user_mobile"
+        android:layout_below="@+id/user_phone"
+        android:layout_alignParentStart="true"
+        android:padding="@dimen/user_details_text_margin" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Data of Birth"
+        android:id="@+id/user_dob"
+        android:layout_below="@+id/user_mobile"
+        android:layout_alignParentStart="true"
+        android:padding="@dimen/user_details_text_margin" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Email"
+        android:id="@+id/user_email"
+        android:layout_below="@+id/user_dob"
+        android:layout_alignParentStart="true"
+        android:padding="@dimen/user_details_text_margin" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Username"
+        android:id="@+id/user_username"
+        android:layout_below="@+id/user_email"
+        android:layout_alignParentStart="true"
+        android:padding="@dimen/user_details_text_margin" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Nationality"
+        android:id="@+id/user_nationality"
+        android:layout_alignParentStart="true"
+        android:padding="@dimen/user_details_text_margin"
+        android:layout_below="@+id/user_username" />
+
+</RelativeLayout>
